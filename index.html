@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Batman T4SU | Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: black;color:aliceblue">
     <header>
     <nav>
-        <img src="./Logos/logohome.png" alt="">
+        <a href="#"><img src="./Logos/logohome.png" alt=""></a>
         <div>
             <ul>
                 <li><a href="#">HOME</a></li>
@@ -20,8 +20,8 @@
     <main>
         <!-- SECTION BATMAN -->
         <section id="batman">
-            <p>Au nom de ses parents assassinés, Bruce Wayne mène
-                une guerre éternelle contre les criminels de Gotham City.
+           <div class="batman">
+            <p>Au nom de ses parents assassinés, Bruce Wayne mène une guerre éternelle contre les criminels de Gotham City. <br>
                 Il est vengeur. Il est la nuit.</p>
                 <h2>Il est Batman.</h2>
                 <div>
@@ -29,6 +29,7 @@
                     <a href="#">VOIR LES ADVERSAIRES</a>
                 </div>
                 <img src="Logos/flèche_down_header.png" alt="">
+           </div>
         </section>
 
           <!-- SECTION CINEMA -->
@@ -162,7 +163,7 @@
                 ne sera pas chose aisée. Ensemble ils forment la Justice League, les plus grands superhéros de la Terre, ceux vers qui le monde entier se tourne lorsque les menaces
                 extraterrestres ou surnaturelles menacent son existence.
                 </p>
-                <img src="Illustrations/Bathome11.png" alt="">
+                <img src="Illustrations/Bathome11.png" alt="" width="100%">
         </section>
 
           <!-- SECTION MULTIMEDIA -->
@@ -183,8 +184,73 @@
             </div>
         </section>
           <!-- SECTION FORMULAIRE -->
-        <div class="formualire"></div>
+          <div class="formulaire">
+            <form action="" class="formulaire">
+                <h1>PRENONS CONTACT</h1>
+                <br><br>
+                <label for="">ADRESSE EMAIL</label>
+                <br><br>
+                <input type="email" placeholder="Adresse email">
+                <br><br>
+                <label for="">NEWSLETTER</label>
+                <p>En cochant cette case vous acceptez de recevoir l’actualité concernant les <br>
+                    aventures de Batman : <input type="checkbox" name="" id=""></p>
+                <select name="" id="">
+                    <option value="">Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter</option>
+                </select>
+                <br><br>
+                <input type="text" placeholder="Souhaitez vous recevoir des news" name="" id="">
+                <br><br>
+                <div>
+
+                    <input type="checkbox" name="" id="films">
+                    <label for="">Des films</label>
+     
+                    <input type="checkbox" name="" id="">
+                    <label for="">Des comics</label>
+     
+                    <input type="checkbox" name="" id="">
+                    <label for="">De tout</label>
+                </div>
+                <br><br>
+                <label for="">MESSAGE</label>
+                <br><br>
+                <input type="text" placeholder="Laissez un commentaire pour la communauté" name="" id="">
+                <br><br><br>
+                <input type="submit" value="CONFIRMER">
+          </form>
+          </div>
+          <br><br><br>
     </main>
-    <footer></footer>
+
+    <!--Pied de page -->
+    <footer>
+        <div class="citation">
+            <img src="Logos/icon_guillemets_1.png" alt="">
+            <p>La seule façon raisonnable de vivre en ce bas monde,
+                c'est en dehors des règles.</p>
+                <p>The Dark Knight : Le Chevalier Noir -
+                    Le Joker à Batman (2008)</p>
+                    <img src="Logos/icon_guillemets_2.png" alt="">
+        </div>
+
+        <div class="sociaux">
+            <div>
+                <img src="Logos/icon_WB.png" alt="">
+                <p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves</p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="https://learn.sayna.io/panel/dashboard" target="_blank">
+                <img src="Logos/logo_sayna_white.png" alt="">
+                <img src="Logos/icon_x.png" alt="">
+                <img src="Logos/icon_DC.png" alt="">
+            </a>
+        </li>
+        <li><a href="https://www.facebook.com/" target="_blank"><img src="Logos/icon_facebook.png" alt=""></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="Logos/icon_ig.png" alt=""></a></li>
+        <li><a href="https://twitter.com" target="_blank"><img src="Logos/icon_tw.png" alt=""></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
